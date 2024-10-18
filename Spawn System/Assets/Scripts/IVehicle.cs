@@ -9,6 +9,5 @@ public class Tandem : IVehicle { }
 public class Tricycle : IVehicle { }
 public class GoKart : IVehicle { }
 public class FamilyBike : IVehicle { }
-public class Car : IVehicle { }
 public class Motorbike : IVehicle { }
 public class Truck : IVehicle { }

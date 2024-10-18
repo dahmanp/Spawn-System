@@ -7,4 +7,5 @@ public class VehicleRequirements
     public int NumberOfWheels;
     public bool Engine;
     public int Passengers;
+    public bool HasCargo;
 }

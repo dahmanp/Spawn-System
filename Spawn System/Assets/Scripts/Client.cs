@@ -11,7 +11,7 @@ public class Client : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        /*if (Input.GetKeyDown(KeyCode.S))
         {
             NumberOfWheels = Mathf.Max(NumberOfWheels, 1);
             Passengers = Mathf.Max(Passengers, 1);
@@ -24,8 +24,7 @@ public class Client : MonoBehaviour
 
             IVehicle v = GetVehicle(requirements);
             Debug.Log(v);
-        }
-        /*
+        }*/
         NumberOfWheels = Mathf.Max(NumberOfWheels, 1);
         Passengers = Mathf.Max(Passengers, 1);
         Engine = Cargo;
@@ -36,7 +35,7 @@ public class Client : MonoBehaviour
         requirements.Passengers = Passengers;
 
         IVehicle v = GetVehicle(requirements);
-        Debug.Log(v);*/
+        Debug.Log(v);
     }
 
     private static IVehicle GetVehicle(VehicleRequirements requirements)
